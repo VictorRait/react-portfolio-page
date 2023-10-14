@@ -1,0 +1,22 @@
+@keyframes fade-inY {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-inY {
+  animation: fade-inY 1.5s forwards;
+}
+
+.headerIcon.hover-transform {
+  transition: all 0.5s;
+  opacity: 1;
+}
+.headerIcon.hover-transform:hover {
+  transform: translateY(-8px);
+}
