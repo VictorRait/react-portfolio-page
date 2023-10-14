@@ -18,7 +18,7 @@ function About() {
           </div>
           <div>
             <span className=" leading-5 text-slate-400">
-              {`Six months ago I would've never thought to be a developer. But during the pandemic I needed something to give me a path forward. I learned to code but most importantly I learned how to work to achieve something that I thought was greater than me. And so I code everyday and after months of studying I feel like I need to take the next step. Now, I am seeking internship or entry-level positions to make my skills more real-world. Below are some of my works if you like it. Let's work
+              {`Six months ago I would've never thought to be a developer. But during the pandemic I needed something to give me a path forward. I learned to code but most importantly I learned how to work to achieve something that I thought was greater than me. And so I code everyday and after months of studying I feel like I need to take the next step.Now, I am seeking internship or entry-level positions to make my skills more real-world as I study next back-end development. Below are some of my works if you like it. Let's work
                together! `}
               {/* {` I am pursuing my passion for web development. I am mostly self-taught and most of my knowledge is from tutorials I have scoured from the web. I am driven and motivated as I code everyday. Now, I am seeking internship or entry-level positions to make my skills more real-world. Below are some of my works if you like it. Let's work
             together!`} */}

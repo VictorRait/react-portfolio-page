@@ -16,9 +16,9 @@ function Navbar() {
     <div className="relative z-20 flex h-20 w-full items-center justify-between  px-4 text-gray-300">
       <div>
         <img
-          className="brightness-125"
-          style={{ width: "100px" }}
-          src={"./assets/vr-bg-gold-gradient.png"}
+          className="text-yellow-400 brightness-125"
+          style={{ width: "100px", filter: "grayscale(100) invert(1)" }}
+          src={"./assets/newlogo.png"}
         />
       </div>
 
