@@ -99,6 +99,15 @@ const works = [
     codeLink: "https://github.com/VictorRait/fast-react-pizza",
     demoLink: "https://victorrait.github.io/Bankist/",
   },
+  {
+    name: "My old portfolio page",
+    tag: ["javascript", "all", "html", "CSS"],
+    description:
+      "Here you will find my old portfolio page and some of my old works",
+    image: "../assets/projects_thumbnails/old portfolio page.png",
+    codeLink: "https://github.com/VictorRait/New-Portfolio-page",
+    demoLink: "https://victorrait.github.io/New-Portfolio-page/",
+  },
 ];
 
 function ProjectList({ currentTag, setCurrentPage, currentPage }) {
@@ -106,7 +115,7 @@ function ProjectList({ currentTag, setCurrentPage, currentPage }) {
 
   const PAGE_ITEMS = 6;
   const items = works.filter((work) => work.tag.includes(tag));
-  const numOfPages = items.length / PAGE_ITEMS;
+  const numOfPages = Math.ceil(items.length / PAGE_ITEMS);
   const returnMap = [];
 
   function pageList(page) {
@@ -116,7 +125,7 @@ function ProjectList({ currentTag, setCurrentPage, currentPage }) {
     const renderList = items.slice(numStart, numEnd);
     return renderList;
   }
-  for (let i = 0; i <= numOfPages; i++) {
+  for (let i = 0; i < numOfPages; i++) {
     returnMap.push(i + 1);
   }
 
