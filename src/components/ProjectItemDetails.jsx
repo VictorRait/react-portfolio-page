@@ -7,7 +7,7 @@ function ProjectItemDetails({ work, linkBtn, onLinkBtn }) {
   }
 
   return (
-    <div className="grid w-[70vw] grid-cols-2 gap-4 text-slate-300">
+    <div className="grid w-[70vw]  gap-4 text-slate-300 sm:grid-cols-2">
       {/* image */}
       <div>
         <img

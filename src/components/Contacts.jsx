@@ -1,6 +1,6 @@
 function Contacts() {
   return (
-    <div className="h-[90vh]  bg-slate-200 p-10 ">
+    <div className="h-[90vh] w-[90vw] bg-slate-200 p-10 md:w-[40vw] ">
       <form
         method="POST"
         action="https://getform.io/f/67329d5b-5443-4f84-9c01-7f5ed7397e14"

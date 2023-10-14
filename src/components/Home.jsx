@@ -8,10 +8,10 @@ function Home() {
       {/* Container */}
       <div className=" relative z-10 mx-auto -mt-20 flex h-full max-w-[1000px] flex-col justify-center px-8">
         <p className="text-yellow-400">Hi, my name is</p>
-        <h1 className="text-4xl font-bold text-slate-300 sm:text-7xl">
+        <h1 className="text-5xl font-bold text-slate-300 sm:text-7xl">
           Victor Rait
         </h1>
-        <h2 className="text-4xl font-bold text-slate-500 sm:text-7xl">
+        <h2 className="text-5xl font-bold text-slate-500 sm:text-7xl">
           {"I'm a Front-end Developer."}
         </h2>
         <p className=" max-w-[600px] py-4 text-slate-500">
