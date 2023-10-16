@@ -115,7 +115,7 @@ function Navbar() {
           <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-blue-500 transition-all duration-300 hover:ml-[-10px] ">
             <a
               className="flex w-full items-center justify-between text-gray-300"
-              href="www.linkedin.com/in/victor-rait-36b5b2254"
+              href="https://www.linkedin.com/in/victor-rait-36b5b2254"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
