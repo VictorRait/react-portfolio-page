@@ -108,6 +108,24 @@ const works = [
     codeLink: "https://github.com/VictorRait/New-Portfolio-page",
     demoLink: "https://victorrait.github.io/New-Portfolio-page/",
   },
+  {
+    name: "E-commerce (Wordpress)",
+    tag: ["wordpress", "all"],
+    description:
+      "A shop called onestopshop to order items and add to cart (static version on demo), view the items and their variations in detail in the single page or just view them in the shop arhive page",
+    image: "../assets/projects_thumbnails/old portfolio page.png",
+    codeLink: "https://github.com/VictorRait/wordpress ecommerce.png",
+    demoLink: "https://magenta-fenglisu-8a31d1.netlify.app/",
+  },
+  {
+    name: "Real estate (Wordpress)",
+    tag: ["wordpress", "all"],
+    description:
+      "A real estate site in the UAE, visit categories such as apartments, villas, resorts and cottages. See their price, garage type, location and more.",
+    image: "../assets/projects_thumbnails/wordpress real-estate.png",
+    codeLink: "https://github.com/VictorRait/real-estate-wordpress",
+    demoLink: "https://resplendent-biscotti-9243bc.netlify.app/",
+  },
 ];
 
 function ProjectList({ currentTag, setCurrentPage, currentPage }) {
