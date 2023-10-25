@@ -113,7 +113,7 @@ const works = [
     tag: ["wordpress", "all"],
     description:
       "A shop called onestopshop to order items and add to cart (static version on demo), view the items and their variations in detail in the single page or just view them in the shop arhive page",
-    image: "../assets/projects_thumbnails/old portfolio page.png",
+    image: "../assets/projects_thumbnails/wordpress ecommerce.png",
     codeLink: "https://github.com/VictorRait/wordpress ecommerce.png",
     demoLink: "https://magenta-fenglisu-8a31d1.netlify.app/",
   },
