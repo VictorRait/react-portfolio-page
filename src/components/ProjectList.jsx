@@ -4,6 +4,23 @@ import ProjectListItem from "./ProjectListItem";
 
 const works = [
   {
+    name: "The Wild Oasis",
+    tag: [
+      "react",
+      "all",
+      "html",
+      "CSS",
+      "Router",
+      "Styled-components",
+      "Supabase",
+      "React Query",
+    ],
+    description:
+      "An app for employees of a cabin/hotel booking company. The backend is handled with Supabase. The app makes it easier for the users to manage bookings handling creation, editing, and deletion of bookings. Guests are always unconfirmed before check-in but the details of their bookings is kept such as paid or to pay guests. If they included breakfast, and if they have special instructions.",
+    image: "../assets/projects_thumbnails/the-wild-oasis.png",
+    demoLink: "https://booking-app-oasis.netlify.app/",
+  },
+  {
     name: "🍕 Fast React Pizza",
     tag: ["react", "all", "html", "CSS", "Router", "tailwindcss"],
     description:
@@ -14,7 +31,7 @@ const works = [
   },
   {
     name: "Worldwise",
-    tag: ["react", "all", "html", "CSS", "Redux"],
+    tag: ["react", "all", "html", "CSS", "Redux", "vercel", "leafletApi"],
     description:
       "An app to list your journeys around the world and notes about them. It makes use of the leafletAPI to give you a clickable map with geolocation features. It fetches data on the location clicked by the user. Then a form is shown to create notes and automatically takes in the date and details about the city or country.",
     image: "../assets/projects_thumbnails/worldwise.png",
@@ -114,7 +131,7 @@ const works = [
     description:
       "A shop called onestopshop to order items and add to cart (static version on demo), view the items and their variations in detail in the single page or just view them in the shop arhive page",
     image: "../assets/projects_thumbnails/wordpress ecommerce.png",
-    codeLink: "https://github.com/VictorRait/wordpress ecommerce.png",
+    codeLink: "https://github.com/VictorRait/ecommerce",
     demoLink: "https://magenta-fenglisu-8a31d1.netlify.app/",
   },
   {
