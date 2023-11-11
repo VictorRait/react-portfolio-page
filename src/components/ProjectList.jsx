@@ -4,6 +4,23 @@ import ProjectListItem from "./ProjectListItem";
 
 const works = [
   {
+    name: "Shirt Customizer",
+    tag: [
+      "react",
+      "all",
+      "html",
+      "CSS",
+      "framer-motion",
+      "Threejs",
+      "Valtio",
+      "tailwindcss",
+    ],
+    description:
+      "Customize and design your own shirt. See your design live in a 3D shirt model. Upload a picture as a logo or a full texture. You can even ask AI Dream by Wombo to give you a designed image. Please keep AI use to a minimum as its limited generation fom the API.",
+    image: "../assets/projects_thumbnails/shirt_threejs.png",
+    demoLink: "https://snazzy-semifreddo-bcf5c8.netlify.app/",
+  },
+  {
     name: "The Wild Oasis",
     tag: [
       "react",
