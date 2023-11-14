@@ -16,7 +16,7 @@ const works = [
       "tailwindcss",
     ],
     description:
-      "Customize and design your own shirt. See your design live in a 3D shirt model. Upload a picture as a logo or a full texture. You can even ask AI Dream by Wombo to give you a designed image. Please keep AI use to a minimum as its limited generation fom the API.",
+      "Customize and design your own shirt. See your design live in a 3D shirt model. Upload a picture as a logo or a full texture. You can even ask AI Dream by Wombo to give you a designed image. Please keep AI use to a minimum as its limited generation from the API.",
     image: "../assets/projects_thumbnails/shirt_threejs.png",
     demoLink: "https://snazzy-semifreddo-bcf5c8.netlify.app/",
   },
@@ -72,22 +72,7 @@ const works = [
       "https://64ad054eb10e1f4de7af59d1--wondrous-otter-c21d4b.netlify.app/",
     codeLink: "https://github.com/VictorRait/Forkify-v2",
   },
-  {
-    name: "Blog Site (Wordpress)",
-    tag: ["wordpress", "all"],
-    description:
-      "A Blog site in Wordpress made with OceanWP theme and elementor. Used Simply static plugin to make deployable to netlify",
-    image: "../assets/projects_thumbnails/blog site.png",
-    demoLink: "https://ephemeral-khapse-7d5c10.netlify.app/",
-  },
-  {
-    name: "Corporate Business Site (Wordpress)",
-    tag: ["wordpress", "all"],
-    description:
-      "A Corporate Business Site in Wordpress made with OceanWP theme and elementor. Used Simply static plugin to make deployable to netlify",
-    image: "../assets/projects_thumbnails/Corporate Business Site.png",
-    demoLink: "https://prismatic-gecko-5a57f8.netlify.app",
-  },
+
   {
     name: "Personal Portfolio Site",
     tag: ["wordpress", "all"],
@@ -104,6 +89,14 @@ const works = [
     image: "../assets/projects_thumbnails/Space Tourism.png",
     demoLink: "https://victorrait.github.io/Space-tourism/",
     codeLink: "https://github.com/VictorRait/Space-tourism",
+  },
+  {
+    name: "Bootstrap landing page",
+    tag: ["all", "html", "bootstrap 5"],
+    description: "Tindog. Find the True Love of Your Dog's Life Today. ",
+    image: "../assets/projects_thumbnails/bootstrap.png",
+    demoLink: "https://classy-treacle-5e0cdb.netlify.app/",
+    codeLink: "https://github.com/VictorRait/bootstrapTindog",
   },
 
   {
@@ -141,6 +134,22 @@ const works = [
     image: "../assets/projects_thumbnails/old portfolio page.png",
     codeLink: "https://github.com/VictorRait/New-Portfolio-page",
     demoLink: "https://victorrait.github.io/New-Portfolio-page/",
+  },
+  {
+    name: "Blog Site (Wordpress)",
+    tag: ["wordpress", "all"],
+    description:
+      "A Blog site in Wordpress made with OceanWP theme and elementor. Used Simply static plugin to make deployable to netlify",
+    image: "../assets/projects_thumbnails/blog site.png",
+    demoLink: "https://ephemeral-khapse-7d5c10.netlify.app/",
+  },
+  {
+    name: "Corporate Business Site (Wordpress)",
+    tag: ["wordpress", "all"],
+    description:
+      "A Corporate Business Site in Wordpress made with OceanWP theme and elementor. Used Simply static plugin to make deployable to netlify",
+    image: "../assets/projects_thumbnails/Corporate Business Site.png",
+    demoLink: "https://prismatic-gecko-5a57f8.netlify.app",
   },
   {
     name: "E-commerce (Wordpress)",
