@@ -161,14 +161,6 @@ const works = [
     codeLink: "https://github.com/VictorRait/real-estate-wordpress",
     demoLink: "https://resplendent-biscotti-9243bc.netlify.app/",
   },
-  {
-    name: "Personal Portfolio Site",
-    tag: ["wordpress", "all"],
-    description:
-      "My first portfolio site in wordpress. Used Simply static plugin to make deployable to netlify",
-    image: "../assets/projects_thumbnails/wordpress personal site.png",
-    demoLink: "https://tubular-cupcake-40778b.netlify.app/",
-  },
 ];
 
 function ProjectList({ currentTag, setCurrentPage, currentPage }) {
