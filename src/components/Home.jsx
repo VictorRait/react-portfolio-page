@@ -1,6 +1,5 @@
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
-import IconAnimation from "./animation/IconAnimation";
 
 function Home() {
   return (
@@ -12,7 +11,7 @@ function Home() {
           Victor Rait
         </h1>
         <h2 className="text-5xl font-bold text-slate-500 sm:text-7xl">
-          {"I'm a Front-end Developer."}
+          {"I'm a Full-stack Web Developer."}
         </h2>
         <p className=" max-w-[600px] py-4 text-slate-500">
           I specialize in building beautiful websites that attracts users by
@@ -26,24 +25,6 @@ function Home() {
                 <HiArrowNarrowRight className="rotate-90 duration-200 group-hover:translate-y-1.5" />
               </button>
             </Link>
-          </div>
-          <div className="headerIcons">
-            <IconAnimation path={"../assets/react.svg"} altName={"react"} />
-            <IconAnimation
-              path={"../assets/icons8-tailwind-css.svg"}
-              altName={"tailwind"}
-            />
-            <IconAnimation
-              path={"../assets/javascript.svg"}
-              altName={"javascript"}
-            />
-            <IconAnimation path={"../assets/html.svg"} altName="html" />
-            <IconAnimation path={"../assets/css.svg"} altName="css" />
-            <IconAnimation path={"../assets/sass.svg"} altName="sass" />
-            <IconAnimation
-              path={"../assets/icons8-wordpress.svg"}
-              altName="wordpress"
-            />
           </div>
         </div>
       </div>

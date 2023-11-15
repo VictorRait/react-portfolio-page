@@ -23,7 +23,7 @@ function ProjectItemDetails({ work, linkBtn, onLinkBtn }) {
           <span className="mt-8">
             Tools used:{" "}
             {work.tag
-              .filter((tag) => tag !== "all")
+              .filter((tag) => tag !== "all" && tag !== "full-stack")
               .map((t) => t.slice(0, 1).toUpperCase() + t.slice(1))
               .join(" / ")}
           </span>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,6 +22,10 @@
   height: 250px;
 }
 
+.font-cabin {
+  font-family: "Cabin", sans-serif;
+}
+
 .content-div:hover {
   background-image: linear-gradient(
     to right,
@@ -31,9 +35,13 @@
 }
 
 .headerIcons {
-  display: flex;
+  padding-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 0.6rem;
+  column-gap: 0.4rem;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
 }
 .headerIcons img:nth-child(1) {
   animation-delay: 2.4s;

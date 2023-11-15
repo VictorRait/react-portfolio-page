@@ -4,6 +4,24 @@ import ProjectListItem from "./ProjectListItem";
 
 const works = [
   {
+    name: "Reading list",
+    tag: [
+      "react",
+      "all",
+      "html",
+      "mongodb",
+      "express",
+      "nodejs",
+      "react-router",
+      "tailwindcss",
+      "full-stack",
+    ],
+    description:
+      "A reading list application. Here you can add your books or explore through the library and add them to your list. You can mark them as stopped, finished or when you don't want to see it anymore just remove it from the list. You can even register for an  account but you can use  Test Account:testman@email.com pass: qwerty",
+    image: "../assets/projects_thumbnails/readinglist.png",
+    demoLink: "https://timely-beijinho-7bbef9.netlify.app",
+  },
+  {
     name: "Shirt Customizer",
     tag: [
       "react",
@@ -13,7 +31,10 @@ const works = [
       "framer-motion",
       "Threejs",
       "Valtio",
+      "express",
+      "nodejs",
       "tailwindcss",
+      "full-stack",
     ],
     description:
       "Customize and design your own shirt. See your design live in a 3D shirt model. Upload a picture as a logo or a full texture. You can even ask AI Dream by Wombo to give you a designed image. Please keep AI use to a minimum as its limited generation from the API.",

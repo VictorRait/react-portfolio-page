@@ -8,6 +8,7 @@ import "./index.css";
 import Particles from "react-tsparticles";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "tsparticles-slim"; // if you are goin
+import Skills from "./components/Skills";
 
 function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -27,6 +28,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
+      <Skills />
       <About />
       <Projects />
       <div className="!-z-1 !fixed ">

@@ -22,23 +22,31 @@ function ProjectHeading({ setCurrentTag, onSetCurrentPage }) {
         <Button
           isActiveTag={isActiveTag === 1}
           onClick={() => {
-            setCurrentTag("React"), setIsActiveTag(1), onSetCurrentPage(0);
+            setCurrentTag("Full-stack"), setIsActiveTag(1), onSetCurrentPage(0);
+          }}
+        >
+          # Full-stack
+        </Button>
+        <Button
+          isActiveTag={isActiveTag === 2}
+          onClick={() => {
+            setCurrentTag("React"), setIsActiveTag(2), onSetCurrentPage(0);
           }}
         >
           # React
         </Button>
         <Button
-          isActiveTag={isActiveTag === 2}
+          isActiveTag={isActiveTag === 3}
           onClick={() => {
-            setCurrentTag("Javascript"), setIsActiveTag(2), onSetCurrentPage(0);
+            setCurrentTag("Javascript"), setIsActiveTag(3), onSetCurrentPage(0);
           }}
         >
           # Javascript
         </Button>
         <Button
-          isActiveTag={isActiveTag === 3}
+          isActiveTag={isActiveTag === 4}
           onClick={() => {
-            setCurrentTag("wordpress"), setIsActiveTag(3), onSetCurrentPage(0);
+            setCurrentTag("wordpress"), setIsActiveTag(4), onSetCurrentPage(0);
           }}
         >
           # Wordpress
