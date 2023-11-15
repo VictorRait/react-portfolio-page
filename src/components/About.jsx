@@ -18,8 +18,7 @@ function About() {
           </div>
           <div>
             <span className="  text-md  leading-6 tracking-wide  text-slate-400 ">
-              {`Six months ago I would've never thought to be a developer. But during the pandemic I needed something to give me a path forward. I learned to code but most importantly I learned how to work to achieve something that I thought was greater than me. And so I code everyday and after months of studying I feel like I need to take the next step. Now, I am seeking internship or entry-level positions to make my skills more real-world as I study next back-end development. Below are some of my works if you like it. Let's work
-               together! `}
+              {`I am passionate about coding, like a video game it has caused me to level up and because of it I am excited about what the future will bring. I have made projects below to showcase my ability and drive. If you like some of it, let's work together! `}
               {/* {` I am pursuing my passion for web development. I am mostly self-taught and most of my knowledge is from tutorials I have scoured from the web. I am driven and motivated as I code everyday. Now, I am seeking internship or entry-level positions to make my skills more real-world. Below are some of my works if you like it. Let's work
             together!`} */}
             </span>
