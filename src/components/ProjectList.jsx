@@ -152,9 +152,9 @@ const works = [
     name: "Jimakes ecommerce (Wordpress)",
     tag: ["wordpress", "all"],
     description:
-      "A Blog site in Wordpress made with OceanWP theme and elementor. Used Simply static plugin to make deployable to netlify",
-    image: "../assets/projects_thumbnails/blog site.png",
-    demoLink: "https://ephemeral-khapse-7d5c10.netlify.app/",
+      "An ecommerce site and elementor. Used Simply static plugin to make deployable to netlify",
+    image: "../assets/projects_thumbnails/.png",
+    demoLink: "https://clever-duckanoo-54ff0a.netlify.app",
   },
   {
     name: "Blog Site (Wordpress)",
