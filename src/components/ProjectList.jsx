@@ -149,6 +149,14 @@ const works = [
     demoLink: "https://victorrait.github.io/New-Portfolio-page/",
   },
   {
+    name: "Jimakes ecommerce (Wordpress)",
+    tag: ["wordpress", "all"],
+    description:
+      "A Blog site in Wordpress made with OceanWP theme and elementor. Used Simply static plugin to make deployable to netlify",
+    image: "../assets/projects_thumbnails/blog site.png",
+    demoLink: "https://ephemeral-khapse-7d5c10.netlify.app/",
+  },
+  {
     name: "Blog Site (Wordpress)",
     tag: ["wordpress", "all"],
     description:
