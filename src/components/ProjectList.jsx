@@ -4,6 +4,25 @@ import ProjectListItem from "./ProjectListItem";
 
 const works = [
   {
+    name: "Real Estate Marketplace",
+    tag: [
+      "react",
+      "all",
+      "html",
+      "mongodb",
+      "express",
+      "nodejs",
+      "react-router",
+      "redux",
+      "tailwindcss",
+      "full-stack",
+    ],
+    description:
+      "Here you can view listings of other users and contact them. It is a place for people to look for places that are for rent or sale. Complete with google authentication. ",
+    image: "../assets/projects_thumbnails/sahandestate.png",
+    demoLink: "https://mern-estate-x8am.onrender.com/home",
+  },
+  {
     name: "Reading list",
     tag: [
       "react",
@@ -153,7 +172,7 @@ const works = [
     tag: ["wordpress", "all"],
     description:
       "An ecommerce site and elementor. Used Simply static plugin to make deployable to netlify",
-    image: "../assets/projects_thumbnails/.png",
+    image: "../assets/projects_thumbnails/jimakes.png",
     demoLink: "https://clever-duckanoo-54ff0a.netlify.app",
   },
   {
