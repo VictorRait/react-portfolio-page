@@ -8,7 +8,11 @@ const works = [
     tag: ["react", "all", "html", "react-native"],
     description:
       "The app asks for your location then show you the current weather, upcoming weather and the sunrise and sunset in your city via openweatherAPI ",
-    image: "../assets/projects_thumbnails/weatherapp1.png",
+    image: [
+      "../assets/projects_thumbnails/weatherapp1.png",
+      "../assets/projects_thumbnails/weatherapp2.png",
+      "../assets/projects_thumbnails/weatherapp3.png",
+    ],
     codeLink: "https://github.com/VictorRait/native-Weatherapp",
   },
   {
