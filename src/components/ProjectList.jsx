@@ -4,6 +4,14 @@ import ProjectListItem from "./ProjectListItem";
 
 const works = [
   {
+    name: "Weather App",
+    tag: ["react", "all", "html", "react-native"],
+    description:
+      "The app asks for your location then show you the current weather, upcoming weather and the sunrise and sunset in your city via openweatherAPI ",
+    image: "../assets/projects_thumbnails/weatherapp1.png",
+    codeLink: "https://github.com/VictorRait/native-Weatherapp",
+  },
+  {
     name: "Real Estate Marketplace",
     tag: [
       "react",
