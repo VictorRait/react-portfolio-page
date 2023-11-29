@@ -11,7 +11,7 @@ function ProjectItemDetails({ work, linkBtn, onLinkBtn }) {
       {/* image */}
       <div>
         <img
-          className="rounded-md shadow-lg shadow-[#00000080]"
+          className="max-h-[300px] rounded-md shadow-lg shadow-[#00000080]"
           src={work.image}
           alt="workImage"
         />
@@ -29,21 +29,20 @@ function ProjectItemDetails({ work, linkBtn, onLinkBtn }) {
           </span>
 
           <div className="mt-2 flex gap-4">
-            {work.codeLink ? (
+            {work.codeLink && (
               <a href={work.codeLink}>
                 <Button onClick={() => handleLink(1)}>
                   {linkBtn === 1 ? "..." : "Code"}
                 </Button>
               </a>
-            ) : (
-              ""
             )}
-
-            <a href={work.demoLink}>
-              <Button onClick={() => handleLink(2)}>
-                {linkBtn === 2 ? "..." : "Demo"}
-              </Button>
-            </a>
+            {work.demoLink && (
+              <a href={work.demoLink}>
+                <Button onClick={() => handleLink(2)}>
+                  {linkBtn === 2 ? "..." : "Demo"}
+                </Button>
+              </a>
+            )}
           </div>
         </div>
       </div>
