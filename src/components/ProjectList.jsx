@@ -5,7 +5,7 @@ import ProjectListItem from "./ProjectListItem";
 const works = [
   {
     name: "Weather App",
-    tag: ["react", "all", "html", "react-native"],
+    tag: ["react", "all", "expo", "react-native"],
     description:
       "The app asks for your location then show you the current weather, upcoming weather and the sunrise and sunset in your city via openweatherAPI ",
     image: [
