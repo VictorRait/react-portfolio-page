@@ -6,6 +6,7 @@ const works = [
   {
     name: "Social App",
     tag: [
+      "full-stack",
       "all",
       "html",
       "react",
