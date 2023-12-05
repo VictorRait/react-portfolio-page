@@ -5,9 +5,21 @@ import ProjectListItem from "./ProjectListItem";
 const works = [
   {
     name: "Social App",
-    tag: ["all", "html", "react", "react-router", "redux", "formik", "MUI"],
+    tag: [
+      "all",
+      "html",
+      "react",
+      "react-router",
+      "redux",
+      "formik",
+      "MUI",
+      "mongoDB",
+      "mongoose",
+      "express",
+      "nodejs",
+    ],
     description:
-      "A Social App, a simple social media application in which you can post about things that you like add friends in your friend list. --Features to add next: video and audio postings, link to other platforms,  notifications and messaging. email:fake@email.com pass:qweqwe ",
+      "A Social App, a simple social media application in which you can post about things that you like add friends in your friend list. --Features to add next: video and audio postings, link to other platforms,  notifications and messaging. test account:fake@email.com pass:qweqwe ",
     image: "../assets/projects_thumbnails/sociopedia.png",
     codeLink: "https://github.com/VictorRait/SocialApp",
     demoLink: "https://socialapp-i72u.onrender.com/",
