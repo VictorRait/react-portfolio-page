@@ -8,8 +8,8 @@ const works = [
     tag: ["full-stack", "all", "html", "convex", "tailwindcss"],
     description:
       "A little test using Next.js. Here I attempt a blog site using Next.js with Convex. Live presence. You can login and see other people viewing the page. Users are able to comment. Use johndoe@gmail.com, pass:12345678 to view the blog and create blogposts.",
-    image: "../assets/project_thumbnails/Nextjs_blog.png",
-    demoLink: "nextjs-blog-two-cyan.vercel.app",
+    image: "../assets/projects_thumbnails/Nextjs_blog.png",
+    demoLink: "https://nextjs-blog-two-cyan.vercel.app",
   },
 
   {
