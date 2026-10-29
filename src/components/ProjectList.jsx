@@ -4,8 +4,33 @@ import ProjectListItem from "./ProjectListItem";
 
 const works = [
   {
+    name: "Kanban Board",
+    tag: [
+      "full-stack",
+      "all",
+      "html",
+      "react",
+      "graphql",
+      "tailwindcss",
+      "mui",
+      "typescript",
+    ],
+    description:
+      "Live subscription to a kanban board. You can create your own boards and invite other users to collaborate. You can add tasks, move them around, and delete them. ",
+    image: "../assets/projects_thumbnails/Kanban.png",
+    demoLink: "https://hilarious-lollipop-855ffc.netlify.app/",
+  },
+  {
     name: "NextJs Blog",
-    tag: ["full-stack", "all", "html", "convex", "tailwindcss"],
+    tag: [
+      "full-stack",
+      "all",
+      "html",
+      "convex",
+      "tailwindcss",
+      "Nextjs",
+      "zod",
+    ],
     description:
       "A little test using Next.js. Here I attempt a blog site using Next.js with Convex. Live presence. You can login and see other people viewing the page. Users are able to comment. Use johndoe@gmail.com, pass:12345678 to view the blog and create blogposts.",
     image: "../assets/projects_thumbnails/Nextjs_blog.png",
@@ -198,16 +223,15 @@ const works = [
     tag: ["javascript", "all", "html", "CSS"],
     description: "Another bank landing page",
     image: "../assets/projects_thumbnails/Easybank2.jpg",
-    codeLink: "https://victorrait.github.io/Easybank/",
-    demoLink:
-      "https://64f6ff50d2a681091e2d4335--coruscating-starship-311b2d.netlify.app/",
+    codeLink: "https://github.com/VictorRait/Easybank",
+    demoLink: "https://victorrait.github.io/Easybank/",
   },
   {
     name: "Bankist Landing Page",
     tag: ["javascript", "all", "html", "CSS"],
     description: "A bank landing page",
     image: "../assets/projects_thumbnails/bankist.png",
-    codeLink: "https://github.com/VictorRait/fast-react-pizza",
+    codeLink: "https://github.com/VictorRait/Bankist",
     demoLink: "https://victorrait.github.io/Bankist/",
   },
   {
