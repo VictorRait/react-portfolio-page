@@ -18,6 +18,7 @@ const works = [
     description:
       "Live subscription to a kanban board. You can create your own boards and invite other users to collaborate. You can add tasks, move them around, and delete them. ",
     image: "../assets/projects_thumbnails/Kanban.png",
+    codeLink: "https://github.com/VictorRait/Kanban-Todo-App",
     demoLink: "https://hilarious-lollipop-855ffc.netlify.app/",
   },
   {
@@ -34,6 +35,7 @@ const works = [
     description:
       "A little test using Next.js. Here I attempt a blog site using Next.js with Convex. Live presence. You can login and see other people viewing the page. Users are able to comment. Use johndoe@gmail.com, pass:12345678 to view the blog and create blogposts.",
     image: "../assets/projects_thumbnails/Nextjs_blog.png",
+    codeLink: "https://github.com/VictorRait/nextjs-blog",
     demoLink: "https://nextjs-blog-two-cyan.vercel.app",
   },
 
