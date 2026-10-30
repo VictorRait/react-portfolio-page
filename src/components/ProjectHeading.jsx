@@ -9,7 +9,7 @@ function ProjectHeading({ setCurrentTag, onSetCurrentPage }) {
       <h2 className="inline border-b-4 border-yellow-400 p-1 text-4xl font-bold">
         Projects
       </h2>
-      <p className="mt-4">{"// Have a look at some of my recent works"}</p>
+      <p className="mt-4">{"// Have a look at some of my recent works. Full stack apps may take a full minute to load for the backend to wake up due to free deployment on render"}</p>
       <div className="mt-4 flex gap-3">
         <Button
           isActiveTag={isActiveTag === 0}
